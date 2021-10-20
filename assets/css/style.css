@@ -1,0 +1,31 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+
+body {
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a
+}
+
+
+/* hero image and cover text */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 32vw;
+    width: 100%;
+    background: url('../images/London_6.jpg') no-repeat center center;
+    background-size: contain;
+}
