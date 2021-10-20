@@ -15,6 +15,21 @@ body {
     color: #3a3a3a
 }
 
+/* Headings and logo */
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+#logo {
+    float:left;
+    font-weight: 300%;
+    margin-top: 15px;
+    margin-left: 25px
+}
 /* navigation links */
 
 #menu {
@@ -30,6 +45,17 @@ body {
     float: right;
     list-style-type: none;
     margin: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    border-bottom: 1px solid darkgrey;
+}
+.active {
+    border-bottom: 1px solid darkgrey;
 }
 /* hero image and cover text */
 
