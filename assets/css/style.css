@@ -1,3 +1,5 @@
+/* CSS style rule for below font - font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
 * {
@@ -13,7 +15,22 @@ body {
     color: #3a3a3a
 }
 
+/* navigation links */
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 65px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+}
 /* hero image and cover text */
 
 #hero-outer {
