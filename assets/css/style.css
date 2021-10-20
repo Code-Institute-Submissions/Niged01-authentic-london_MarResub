@@ -2,13 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-
-}
-
 body {
     font-family: lato, sans-serif;
     font-weight: 300;
@@ -71,4 +64,44 @@ h1, h2 {
     width: 100%;
     background: url('../images/London_6.jpg') no-repeat center center;
     background-size: contain;
+}
+
+/* Tours offered */
+
+.boxed-heading {
+    box-shadow: 10px 10px 5px lightgray;
+    border: groove;  
+    border-radius: 15px;
+    margin: 15px;
+     
+}
+
+.boxed-walking {
+    box-shadow: 10px 10px 5px lightgray;
+    border: groove;  
+    border-radius: 15px;
+    margin: 15px;
+    width: 31%;
+    height: 300px;
+    display: inline-block;
+}
+
+.boxed-food {
+    box-shadow: 10px 10px 5px lightgray;
+    border: groove;  
+    border-radius: 15px;
+    margin: 15px;
+    width: 31%;
+    height: 300px;
+    display: inline-block;
+}
+
+.boxed-altogether {
+    box-shadow: 10px 10px 5px lightgray;
+    border: groove;  
+    border-radius: 15px;
+    margin: 15px;
+    width: 31%;
+    height: 300px;
+    display: inline-block;
 }
