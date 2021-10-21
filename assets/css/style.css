@@ -116,11 +116,73 @@ h1, h2 {
   margin: 0; 
 }
 
+#market1-image {
+    height: 150px;
+    max-width: 100%;
+    background: url('../images/Market1_21.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+#southbank1-image {
+    height: 150px;
+    max-width: 100%;
+    background: url('../images/Southbank1.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+#market5-image {
+    height: 150px;
+    max-width: 100%;
+    background: url('../images/Market5.jpg') no-repeat center center;
+    background-size: contain;
+}
+#soho1-image {
+    height: 150px;
+    max-width: 100%;
+    background: url('../images/compton\ street.jpg') no-repeat center center;
+    background-size: contain;
+
+}
+
+#soho2-image {
+    height: 150px;
+    max-width: 100%;
+    background: url('../images/Chinatown.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+#soho3-image{
+    height: 150px;
+    max-width: 100%;
+    background: url('../images/sohofood.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+#richmond1-image {
+    height: 150px;
+    max-width: 100%;
+    background: url('../images/RichmondPark.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+#richmond2-image {
+    height: 150px;
+    max-width: 100%;
+    background: url('../images/richmondpark3.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+#richmond3-image {
+    height: 150px;
+    max-width: 100%;
+    background: url('../images/richmond1.jpg') no-repeat center center;
+    background-size: contain;
+}
 
 /* About Us */
 
 #about-us {
-    background-color: rgb(16, 174, 236);
+    background-color: rgb(92, 199, 241);
     height: 600px;
     width: 100%;
 }
