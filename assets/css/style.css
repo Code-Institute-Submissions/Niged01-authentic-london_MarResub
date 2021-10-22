@@ -73,6 +73,7 @@ h1, h2 {
     border: groove 1px;  
     border-radius: 15px;
     margin: 15px;
+    position: relative;
 
 }
 
@@ -85,7 +86,6 @@ h1, h2 {
     height: 300px;
     display: inline-block;
     text-align: center;
-
 }
 
 .boxed-food {
@@ -178,6 +178,18 @@ h1, h2 {
     background: url('../images/richmond1.jpg') no-repeat center center;
     background-size: contain;
 }
+
+  .boxed-walking:hover {
+      height: 600px;
+  }
+
+  .boxed-food:hover {
+      height: 600px;
+  }
+
+  .boxed-altogether:hover {
+      height: 600px;
+  }
 
 /* About Us */
 
