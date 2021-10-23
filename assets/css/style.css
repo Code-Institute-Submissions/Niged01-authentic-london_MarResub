@@ -139,6 +139,15 @@ input {
     box-sizing: border-box;
   }
 
+.request {
+    background-color: rgb(92, 199, 241);
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
 
 .no-points {
     list-style-type: none;
@@ -218,7 +227,9 @@ input {
 .about-us{
     color: rgb(243, 242, 242);
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
     margin: 30px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
 
 }
