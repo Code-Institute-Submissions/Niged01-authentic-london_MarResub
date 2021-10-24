@@ -288,46 +288,48 @@ input {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: black;
     text-align: center;
-
     width: 600px;
     height: 400px;
-
     padding-top: 40px;
     padding-left: 10px;
-
-    background-color: rgba(34, 150, 179, 0.7);
-
-    top: 50px;
+    border-radius: 15px;
+    border: solid 1px #ccc;
+    background-color: rgba(184, 225, 235, 0.7);
+    top: 70px;
     right: 300px;
-
     position: absolute;
 }
 
 fieldset {
     display: block;
-    margin: 2em 2em;
+    margin: 3em 10em;
     padding: 5px;
+    background-color: rgba(184, 225, 235, 0.7);
     border: solid 1px #ccc;
     border-radius: 15px;
     width: 600px;
-    height: 800px;
+    height: 850px;
+    
 }
 
 legend {
     font-size: 1.5em;
     padding: 4 .1em;
-    color: #999;
+    color: black;
 }
 
 label {
     display: block;
     margin-top: 2em;
+    color: black;
 }
 
 select {
     display: block;
     margin-top: 2em;
+    color: black;
 }
 
 label:first-of-type {
@@ -341,7 +343,17 @@ input {
 
 textarea {
     min-height: 9em;
-    min-width: 40%;
+    min-width: 50%;
     padding: .5em;
     border: solid 1px #999;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: rgb(129, 208, 228)
+    color: white;
+    border: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px 200px;
 }
