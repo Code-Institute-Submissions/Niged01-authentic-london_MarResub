@@ -59,11 +59,36 @@ h1, h2 {
     position: relative;
 }
 
+#cover-text, #cover-text h2 {
+    color: #fff;
+}
+
 #hero-image {
     height: 32vw;
     width: 100%;
     background: url('../images/London_6.jpg') no-repeat center center;
     background-size: contain;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 400px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(34, 150, 179, 0.7);
+
+    bottom: 50px;
+    right: 300px;
+
+    position: absolute;
 }
 
 /* Tours offered */
@@ -121,12 +146,6 @@ h1, h2 {
     width: 33%;
     height: 600px;
     text-align: center;
-}
-
-.form {
-    text-align: center;
-    font-weight: bold;
-    color: black;
 }
 
 input {
@@ -245,4 +264,84 @@ input {
 
 #photos > img {
     width: 100%;
+}
+
+/* Booking form */
+
+
+.form{
+    height: 1200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.form-image {
+    height: 100%;
+    width: 100%;
+    background: url('../images/London_7.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.form-text {
+    font-size: 130%;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+
+    width: 600px;
+    height: 400px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(34, 150, 179, 0.7);
+
+    top: 50px;
+    right: 300px;
+
+    position: absolute;
+}
+
+fieldset {
+    display: block;
+    margin: 2em 2em;
+    padding: 5px;
+    border: solid 1px #ccc;
+    border-radius: 15px;
+    width: 600px;
+    height: 800px;
+}
+
+legend {
+    font-size: 1.5em;
+    padding: 4 .1em;
+    color: #999;
+}
+
+label {
+    display: block;
+    margin-top: 2em;
+}
+
+select {
+    display: block;
+    margin-top: 2em;
+}
+
+label:first-of-type {
+    margin-top: 0;
+}
+
+input {
+    padding: .5em;
+    border: solid 1px #999;
+}
+
+textarea {
+    min-height: 9em;
+    min-width: 40%;
+    padding: .5em;
+    border: solid 1px #999;
 }
