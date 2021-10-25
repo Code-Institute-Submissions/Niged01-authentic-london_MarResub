@@ -8,13 +8,24 @@ body {
     color: #3a3a3a
 }
 
+/* header */
+
+.header {
+    height: 100px;
+    background: white;
+    border: 1px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
 /* Headings and logo */
 
 h1, h2 {
     font-family: 'Playfair Display', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: grey;
+    color: rgb(131, 130, 130);
 }
 
 #logo {
@@ -60,7 +71,7 @@ h1, h2 {
 }
 
 #cover-text, #cover-text h2 {
-    color: #fff;
+    color: rgb(131, 130, 130);
 }
 
 #hero-image {
@@ -83,11 +94,11 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(34, 150, 179, 0.7);
-
-    bottom: 50px;
+    background-color: rgba(179,227,250,255);
+    opacity: 0.5;
+    
+    top: 250px;
     right: 300px;
-
     position: absolute;
 }
 
@@ -112,9 +123,10 @@ h1, h2 {
     border: groove 1px;  
     border-radius: 15px;
     margin: 15px;
-    width: 100%;
+    width: 98%;
     height: 30px;
     text-align: left;
+    padding-left: 10px;
 }
 
 .boxed-walking {
@@ -159,7 +171,7 @@ input {
   }
 
 .request {
-    background-color: rgb(92, 199, 241);
+    background-color: rgba(78,142,186,255);
     color: white;
     padding: 1em 1.5em;
     text-decoration: none;
@@ -239,12 +251,12 @@ input {
 /* About Us */
 
 #about-us {
-    background-color: rgb(92, 199, 241);
+    background-color: rgba(78,142,186,255);
     height: 300px;
     width: 100%;
 }
 .about-us{
-    color: rgb(243, 242, 242);
+    color: whitesmoke;
     text-align: center;
     padding-top: 80px;
     margin: 30px;
@@ -281,6 +293,8 @@ input {
     width: 100%;
     background: url('../images/London_7.jpg') no-repeat center center;
     background-size: cover;
+    margin: 0;
+    padding: 1px;
 }
 
 .form-text {
@@ -359,10 +373,14 @@ input[type=submit] {
 }
 /* footer */
 footer {
-    height: 200px;
-    background-color: rgb(33, 133, 163);
+    height: 150px;
+    background-color: rgba(24,88,136,255);
     margin: 0;
     padding: 1px;
+    width: 100%;
+    bottom: 0;
+    
+   
 }
 
 .social {
