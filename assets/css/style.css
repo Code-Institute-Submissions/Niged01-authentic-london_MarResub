@@ -291,7 +291,7 @@ input {
     color: black;
     text-align: center;
     width: 600px;
-    height: 400px;
+    height: auto;
     padding-top: 40px;
     padding-left: 10px;
     border-radius: 15px;
@@ -310,7 +310,7 @@ fieldset {
     border: solid 1px #ccc;
     border-radius: 15px;
     width: 600px;
-    height: 850px;
+    height: auto;
     
 }
 
@@ -356,4 +356,26 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     margin: 30px 200px;
+}
+/* footer */
+footer {
+    height: 200px;
+    background-color: rgb(33, 133, 163);
+    margin: 0;
+    padding: 1px;
+}
+
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 170%;
+    margin: 1%;
+    padding: 3%;
+    color: #3a3a3a;
 }
