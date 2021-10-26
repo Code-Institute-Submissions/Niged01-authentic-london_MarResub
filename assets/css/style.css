@@ -33,7 +33,7 @@ main {
     overflow: hidden;
     border: 1px;
     background-color: white;
-    border-color: grey;
+    border-color: 1px solid grey;
 }
 /* Headings and logo */
 
@@ -47,7 +47,7 @@ h1, h2 {
 #logo {
     float:left;
     font-weight: 300%;
-    margin-top: 15px;
+    margin-top: 30px;
     margin-left: 25px
 }
 /* navigation links */
