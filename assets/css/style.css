@@ -3,21 +3,37 @@
 
 
 body {
-    font-family: 'Playfair Display', serif;
-    font-weight: 300;
-    color: #3a3a3a
+    font-family: "playfair display", serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+
+main {
+    flex-grow: 1;
 }
 
 /* header */
 
 .header {
-    height: 100px;
-    background: white;
-    border: 1px;
+    z-index: 1;
     position: fixed;
+    left: 0;
     top: 0;
     width: 100%;
-    z-index: 1;
+    overflow: hidden;
+    border: 1px;
+    background-color: white;
+    border-color: grey;
 }
 /* Headings and logo */
 
@@ -68,6 +84,7 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
+    margin-top: 100px;
 }
 
 #cover-text, #cover-text h2 {
@@ -252,13 +269,13 @@ input {
 
 #about-us {
     background-color: rgba(78,142,186,255);
-    height: 300px;
+    height: 250px;
     width: 100%;
 }
 .about-us{
     color: whitesmoke;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 30px;
     margin: 30px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -272,6 +289,7 @@ input {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    margin-top: 150px;
 }
 
 #photos > img {
@@ -282,10 +300,11 @@ input {
 
 
 .form{
-    height: 1200px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+    margin-top: 150px;
+    vertical-align: top;
+    display: inline-block;
 }
 
 .form-image {
@@ -293,7 +312,7 @@ input {
     width: 100%;
     background: url('../images/London_7.jpg') no-repeat center center;
     background-size: cover;
-    margin: 0;
+    margin: auto;
     padding: 1px;
 }
 
@@ -306,19 +325,22 @@ input {
     text-align: center;
     width: 600px;
     height: auto;
-    padding-top: 40px;
-    padding-left: 10px;
     border-radius: 15px;
     border: solid 1px #ccc;
     background-color: rgba(184, 225, 235, 0.7);
-    top: 70px;
-    right: 300px;
-    position: absolute;
+    margin-top: 175px;
+    vertical-align: top;
+    display: inline-block;
 }
+
+form {
+    vertical-align: top;
+    display: inline-block;
+    }
 
 fieldset {
     display: block;
-    margin: 3em 10em;
+    margin: 10em;
     padding: 5px;
     background-color: rgba(184, 225, 235, 0.7);
     border: solid 1px #ccc;
@@ -344,6 +366,7 @@ select {
     display: block;
     margin-top: 2em;
     color: black;
+    height: 30px;
 }
 
 label:first-of-type {
@@ -372,14 +395,9 @@ input[type=submit] {
     margin: 30px 200px;
 }
 /* footer */
+
 footer {
-    height: 150px;
     background-color: rgba(24,88,136,255);
-    margin: 0;
-    padding: 1px;
-    width: 100%;
-    bottom: 0;
-    
    
 }
 
