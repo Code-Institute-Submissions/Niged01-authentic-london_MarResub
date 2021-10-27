@@ -154,7 +154,9 @@ h1, h2 {
     width: 33%;
     height: 600px;
     text-align: center;
+    transition: transform .2s;
 }
+
 
 .boxed-food {
     box-shadow: 10px 10px 5px lightgray;
@@ -177,6 +179,9 @@ h1, h2 {
     text-align: center;
 }
 
+.body-content {
+    background: hsl(203, 64%, 72%);
+}
 input {
     width: 30%;
     padding: 3px 6px;
@@ -265,6 +270,7 @@ input {
     background: url('../images/richmond1.jpg') no-repeat center center;
     background-size: contain;
 }
+
 /* About Us */
 
 #about-us {
