@@ -204,6 +204,14 @@ input {
     letter-spacing: 1px;
 }
 
+.request:hover {background-color: rgba(24,88,136,255);}
+
+.request:active {
+    background-color: rgba(24,88,136,255);
+    box-shadow: 0 5px grey;
+    transform: translateY(4px);
+}
+
 .no-points {
     list-style-type: none;
   padding: 0; 
