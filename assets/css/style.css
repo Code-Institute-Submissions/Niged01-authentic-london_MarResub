@@ -22,6 +22,26 @@ main {
     flex-grow: 1;
 }
 
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+
+  }
 /* header logo and navbar */
 
 .navbar {
@@ -168,7 +188,7 @@ h1, h2 {
     border-radius: 15px;
     margin: 15px;
     width: 33%;
-    height: 600px;
+    height: 700px;
     text-align: center;
     background: linear-gradient(to bottom, rgb(90, 113, 124,0), rgb(179, 227, 250,1));
     padding: 1.5em;
@@ -181,7 +201,7 @@ h1, h2 {
     border-radius: 15px;
     margin: 15px;
     width: 33%;
-    height: 600px;
+    height: 700px;
     text-align: center;
     background: linear-gradient(to bottom, rgb(90, 113, 124,0), rgb(179, 227, 250,1));
     padding: 1.5em;
@@ -194,7 +214,7 @@ h1, h2 {
     border-radius: 15px;
     margin: 15px;
     width: 33%;
-    height: 600px;
+    height: 700px;
     text-align: center;
     background: linear-gradient(to bottom, rgb(90, 113, 124,0), rgb(179, 227, 250,1));
     padding: 1.5em;
@@ -327,7 +347,7 @@ input {
     width: 100%;
 }
 
-/* Booking form */
+/* Booking form and contact us */
 
 
 .form{
@@ -358,6 +378,23 @@ input {
     text-align: center;
     width: 600px;
     height: 150px;
+    border-radius: 15px;
+    border: solid 1px #ccc;
+    background-color: rgba(184, 225, 235, 0.7);
+    margin-top: 1em;
+    
+
+}
+
+.form-text-2 {
+    font-size: 130%;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: black;
+    text-align: center;
+    width: 600px;
+    height: 300px;
     border-radius: 15px;
     border: solid 1px #ccc;
     background-color: rgba(184, 225, 235, 0.7);
@@ -445,7 +482,111 @@ footer {
 
 /* media queries */
 
-@media screen and (max-width: 1200px)  {
+@media screen and (max-width: 1300px)  {
+
+    .navbar {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+    }
+
+    h1 {
+        text-align: center;
+        border-bottom: 1px solid rgb(131, 130, 130);
+        font-size: 90%;
+    }
+
+    .menu-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 1px;
+        border-bottom: 1px solid rgb(131, 130, 130);
+    }
+
+    .menu-list .menu-items {
+        padding-top: 1px;
+        padding-bottom: 1px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* hero image */
+
+    .top-banner-section {
+        grid-template-rows: 600px;
+     } 
+
+    .banner-image{
+        height: 60vh
+    }
+
+    .banner-overlay-div {
+        height: 60vh;
+    }
+
+    .banner-text-div{
+        margin-top: 1.5em;
+        margin-left: 5px;
+    }
+
+    .banner-body-text {
+        margin-left: 5px;
+        align-items: flex-start;
+    }
+
+    /* tours */
+
+    .flex-grid {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .boxed-heading {
+        width: 98%;
+        height: inherit;
+        margin-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .boxed-walking {
+        width: 40%;
+        height: auto;
+    }
+
+    .boxed-food {
+        width: 40%;
+        height: auto;
+    }
+
+    .boxed-altogether {
+        width: 40%;
+        height: auto;
+    }
+
+
+    /* Gallery */ 
+
+    #photos {
+        column-count: 2;
+    }
+
+    /* Form */
+
+    .form-image {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .form-text-2 {
+        margin-top: 15px;
+        width: 70%;
+    }
 
     #photos {
         column-count: 3;
@@ -518,9 +659,9 @@ footer {
     }
 
     .boxed-heading {
-        width: 90%;
+        width: 95%;
         height: inherit;
-        margin-top: 10;
+        margin-top: 20px;
         font-size: 20px;
         text-align: center;
     }
@@ -537,11 +678,6 @@ footer {
         width: 90%;
     }
 
-    .form {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-    }
 
     /* Gallery */ 
 
@@ -557,7 +693,10 @@ footer {
         justify-content: space-evenly;
         align-items: center;
     }
-
+    
+    .form-text-2 {
+        margin-top: 15px;
+    }
 }
 
 /* For smart phones */ 
@@ -619,29 +758,26 @@ footer {
     }
 
     .boxed-heading {
-        width: 90%;
+        width: 95%;
         height: inherit;
-        margin-top: 0;
+        margin-top: 10px;
         font-size: 20px;
         text-align: center;
     }
 
     .boxed-walking {
         width: 90%;
+        height: auto;
     }
 
     .boxed-food {
         width: 90%;
+        height: auto;
     }
 
     .boxed-altogether {
         width: 90%;
-    }
-
-    .form {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
+        height: auto;
     }
 
     /* Gallery */
@@ -661,7 +797,13 @@ footer {
 
     }
 
-    .form-text{
+    .form-text {
+        width: auto;
+        height: auto;
+        margin: 1em;
+    }
+
+    .form-text-2 {
         width: auto;
         height: auto;
         margin: 1em;
@@ -674,6 +816,13 @@ footer {
 
     input[type=submit] {
         margin-left: 125px;
+    }
+
+    /* about us */
+
+    #about-us {
+        height: 450px;
+
     }
 }   
  
