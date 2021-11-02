@@ -17,41 +17,41 @@ These tours are aimed at tourists who have been to London before and are looking
     * The navigation bar features logo all 3 pages and links all active, user can press logo on any page and it will return them to the home screen.
     * This navigation bar gives the user a simple click between pages so they aren't having to use the back button constantly.
 
-    (insert nav bar image here!)
+    ![Navbar](assets/images/header.png)
 
 * Hero Image
     * On landing into the site users are met with an illustration of the iconic London skyline the company logo and slogan.
     * The user is met with a clear picture of where it is they will be and is intended to evoke a pleasent feeling within them while giving them a clear direction.
 
-    (insert hero image here!)
+    ![Hero](assets/images/hero.png)
 
 * The Tours
     * As this is a new start up the tours offered a limited for a period of time to 3 distinct areas of London. These area's were picked as both personal favourites to myself and to cater to different clientele such as soho for those who love a night out, Richmond park for the outdoorsy people and southbank for the foodies out there along with the arty people for diverse galleries and street performers etc that mosey along the southbank.
     * The user is met with 3 disctinct tour areas with 3 tours and their descriptions with a request booking button taking the user to a booking request page. They also all include an image from the area each tour is. Note: I have made this a booking request only at this stage as I do not yet have the know how to implement the ecommerce side of things and for this project purpose the site is static.
 
-    (insert tour shot and booking request screen shot)
+    ![Tours](assets/images/tours.png)
 
 * The Gallery 
     * This is a collection of images dedicated to the 3 tour group areas layed out in the order the tours on the main page are layed out Southbank, Soho & Richmond.
     * This gallery is designed to give a glimps of what a tour will look like and let the user imagine themselves enjoying it all.
 
-    (insert screen shot of gallery)
+    ![Gallery](assets/images/gallery.png)
 
 * Contact us
     * This form has been designed specifically for feedback, enquiry & to join Trampled London as a guide. 
     * The user is able to interact with the company as we are a new company this is vital to the growth.
 
-  (insert screen shot of contact us)
+  ![Contact-us](assets/images/contact.png)
 
 * About us
     * This has been designed to give the user an exact description of who we are where we are at and our intended path.
 
-    (insert screen shot of about us)
+    ![About-us](assets/images/about.png)
 
 * Footer
     * Footer inludes links to social media sites. Note: links take user to sign in pages of social sites
 
-    (insert image of footer)
+    ![Footer](assets/images/footer.png)
 
 * Color Pallet
     * The color pallet has been selected from the the hero image on the landing page. The dark to warm blue's in a pastle approach.
@@ -98,14 +98,23 @@ These tours are aimed at tourists who have been to London before and are looking
 * The grid layout was taken from this youtube tutorial https://www.youtube.com/watch?v=ZAY9ROkyPAU&t=1688s
 * I referenced the the Love running project for insperation on the direction the site was taking https://github.com/Niged01/Love-Running. 
 * To create the forms I took elements of form creation from this tutorial https://www.youtube.com/watch?v=8yrTnjo0TWw. But as I wanted the forms to be posiitoned using flex I did not use fieldset or legend and replaced these with a DIV. 
-* To create the linear gardient I used https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear_trans
+* To create the linear gradient I used https://www.w3schools.com/css/tryit.asp?filename=trycss3_gradient-linear_trans
 * To creat animated buttons I used https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_animate3
 * To get a better understanding of flex box i used https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 * To create the custom scroll bar I used https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp
 * To understand how to create box shadow I used https://www.w3schools.com/cssref/css3_pr_box-shadow.asp 
+* The icons in the footer were taken from https://fontawesome.com/
 
 ### Media 
 
 * The hero image and all other images were obtained from:
      * Deposit photos - https://depositphotos.com/
      * Shuttersotck - https://www.shutterstock.com/
+
+------------
+
+## Ideas not implimented
+
+* I wanted the tour boxes to collapse to only show image thumnail, when clicked on the box expands to reveal the content. However I was having difficulty with the box expanding it pushed the rest of the page content down which is not what I was ideally looking for. I have left the boxes at full view until I gain the skills to produce this.
+
+* setting up the site in a way where people who want to join tours of their neighbourhood and earn money from it. I have not yet done this as this will require maps and other skills I have not yet obtained. 
