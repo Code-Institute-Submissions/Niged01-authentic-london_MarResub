@@ -150,6 +150,7 @@ h1, h2 {
     text-transform: uppercase;
     font-weight: bolder;
     color: rgb(43, 42, 42);
+    text-decoration: none;
 }
 
 .banner-body-text {
