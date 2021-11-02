@@ -19,7 +19,7 @@ These tours are aimed at tourists who have been to London before and are looking
 
     (insert nav bar image here!)
 
-* Landing Image
+* Hero Image
     * On landing into the site users are met with an illustration of the iconic London skyline the company logo and slogan.
     * The user is met with a clear picture of where it is they will be and is intended to evoke a pleasent feeling within them while giving them a clear direction.
 
@@ -55,5 +55,9 @@ These tours are aimed at tourists who have been to London before and are looking
 
 * Color Pallet
     * The color pallet has been selected from the the hero image on the landing page. The dark to warm blue's in a pastle approach.
-    * I have chosen this specific pallet as when I found my hero image I enjoyed looking at it and decided to run the pallet throughout the enitre project for consitancy but also to distinctfully remind the user that they are on the Trampled London site. It is for this reason the both Booking request and contact us have the Hero image as their background image.
+    * The color pallet has been kept throughout the enitre project for consitancy but also to distinctfully remind the user that they are on the Trampled London site. It is for this reason the both Booking request and contact us have the Hero image as their background image.
 
+
+## Teasting
+
+----------
