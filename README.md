@@ -30,6 +30,7 @@ These tours are aimed at tourists who have been to London before and are looking
     * The user is met with 3 disctinct tour areas with 3 tours and their descriptions with a request booking button taking the user to a booking request page. They also all include an image from the area each tour is. Note: I have made this a booking request only at this stage as I do not yet have the know how to implement the ecommerce side of things and for this project purpose the site is static.
 
     ![Tours](assets/images/tours.png)
+    ![Booking](assets/images/booking.png)
 
 * The Gallery 
     * This is a collection of images dedicated to the 3 tour group areas layed out in the order the tours on the main page are layed out Southbank, Soho & Richmond.
