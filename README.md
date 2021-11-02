@@ -1,6 +1,6 @@
-### Authentic London
+### Trampled London
 -------
-Authentic London is a site for a walking tour company that aims to give the user a very local experience by using guides who live in and local to the area of the tour. This is to give the user the best unique experience to each tour area, the guides knowledge from being a local creates an experience that is uniquely immersive. 
+Trampled London is a site for a walking tour company that aims to give the user a very local experience by using guides who live in and local to the area of the tour. This is to give the user the best unique experience to each tour area, the guides knowledge from being a local creates an experience that is uniquely immersive. 
 
 The objective is to provide tours that go off the tourist trail, we leave behind all the big tourist regulars people are accustom to and enter into the cultural heart and soul of London exploring the otherwise unseen parts. 
 
@@ -58,6 +58,18 @@ These tours are aimed at tourists who have been to London before and are looking
     * The color pallet has been kept throughout the enitre project for consitancy but also to distinctfully remind the user that they are on the Trampled London site. It is for this reason the both Booking request and contact us have the Hero image as their background image.
 
 
-## Teasting
+## Testing
 
 ----------
+
+### Validator Testing
+
+* HTML
+    * No Errors were returned when passing through the offical [W3C validator] (https://validator.w3.org/nu/?doc=https%3A%2F%2Fniged01.github.io%2Fauthentic-london%2F)
+
+* CSS
+    * No Errors were returned when passing through the offical [(jigsaw) validator] (https://jigsaw.w3.org/css-validator/validator)
+
+### Acessibility
+
+     When running the acessibility test through lighthouse  the test itself came back with a 97% which is great however the performance returned a 79% this is from images to large I amened this and resized the images producing a % result

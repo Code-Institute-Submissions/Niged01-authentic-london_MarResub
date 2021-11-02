@@ -282,7 +282,7 @@ h1, h2 {
 #soho2-image {
     height: 150px;
     max-width: 100%;
-    background: url('../images/Chinatown.jpg') no-repeat center center;
+    background: url('../images/chinatown1.png') no-repeat center center;
     background-size: contain;
 }
 
@@ -296,7 +296,7 @@ h1, h2 {
 #richmond1-image {
     height: 150px;
     max-width: 100%;
-    background: url('../images/RichmondPark.jpg') no-repeat center center;
+    background: url('../images/RichmondPark1.jpg') no-repeat center center;
     background-size: contain;
 }
 
