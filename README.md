@@ -1,12 +1,12 @@
 ### Trampled London
 -------
-Trampled London is a site for a walking tour company that aims to give the user a very local experience by using guides who live in and local to the area of the tour. This is to give the user the best unique experience to each tour area, the guides knowledge from being a local creates an experience that is uniquely immersive. 
+Trampled London is a site for a walking tours hub that aims to give the user a very local experience by using guides who live in and local to the area of the tour. This is to give the user the best unique experience to each tour area, the guides knowledge from being a local creates an experience that is uniquely immersive. 
 
 The objective is to provide tours that go off the tourist trail, we leave behind all the big tourist regulars people are accustom to and enter into the cultural heart and soul of London exploring the otherwise unseen parts. 
 
 These tours are aimed at tourists who have been to London before and are looking for things to do away from the main tourist hot spots, they are also aimed at Londoners who want to explore more of their home and new residents alike.
 
-![Trampled London](assets/images/responsive.png)
+![Trampled London](assets/images/responsive1.png)
 
 ---------
 ## Features
@@ -27,32 +27,33 @@ These tours are aimed at tourists who have been to London before and are looking
 
 * The Tours
     * As this is a new start up the tours offered a limited for a period of time to 3 distinct areas of London. These area's were picked as both personal favourites to myself and to cater to different clientele such as soho for those who love a night out, Richmond park for the outdoorsy people and southbank for the foodies out there along with the arty people for diverse galleries and street performers etc that mosey along the southbank.
-    * The user is met with 3 disctinct tour areas with 3 tours and their descriptions with a request booking button taking the user to a booking request page. They also all include an image from the area each tour is. Note: I have made this a booking request only at this stage as I do not yet have the know how to implement the ecommerce side of things and for this project purpose the site is static.
+    * The user is met with 3 disctinct tour areas with 3 tours and their descriptions with a request booking button taking the user to a booking request page. They also all include an image from the area each tour is. Note: I have made this a booking request only at this stage as I do not yet have the know how to implement the ecommerce side of things and for this project purpose the site is static. The form data does not go anywhere at this point due to the website being static.
 
-    ![Tours](assets/images/tours.png)
-    ![Booking](assets/images/booking.png)
+    ![Tours](assets/images/tours1.png)
+    ![Booking](assets/images/booking1.png)
 
 * The Gallery 
     * This is a collection of images dedicated to the 3 tour group areas layed out in the order the tours on the main page are layed out Southbank, Soho & Richmond.
     * This gallery is designed to give a glimps of what a tour will look like and let the user imagine themselves enjoying it all.
 
-    ![Gallery](assets/images/gallery.png)
+    ![Gallery](assets/images/gallery1.png)
 
 * Contact us
     * This form has been designed specifically for feedback, enquiry & to join Trampled London as a guide. 
     * The user is able to interact with the company as we are a new company this is vital to the growth.
+    * The form data does not go anywhere at this point due to the website being static.
 
-  ![Contact-us](assets/images/contact.png)
+  ![Contact-us](assets/images/contact1.png)
 
 * About us
     * This has been designed to give the user an exact description of who we are where we are at and our intended path.
 
-    ![About-us](assets/images/about.png)
+    ![About-us](assets/images/about1.png)
 
 * Footer
     * Footer inludes links to social media sites. Note: links take user to sign in pages of social sites
 
-    ![Footer](assets/images/footer.png)
+    ![Footer](assets/images/footer1.png)
 
 * Color Pallet
     * The color pallet has been selected from the the hero image on the landing page. The dark to warm blue's in a pastle approach.

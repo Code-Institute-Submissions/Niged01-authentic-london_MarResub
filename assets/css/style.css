@@ -20,7 +20,7 @@ body {
 
 main {
     flex-grow: 1;
-    padding-top: 100px ;
+    padding-top: 80px ;
 }
 
 /* scrollbar */
@@ -112,6 +112,7 @@ h1, h2 {
     grid-row-gap: 0px;
     align-content: center;
     justify-content: center;
+    margin-top: 0;
 }
 /* image */
 .banner-image-div {
@@ -158,6 +159,7 @@ h1, h2 {
     font-weight: bolder;
     color: rgb(43, 42, 42);
     text-decoration: none;
+
 }
 
 .banner-body-text {
@@ -168,6 +170,7 @@ h1, h2 {
     letter-spacing: 0.02em;
     color: rgb(5, 33, 49);
     font-family: 'Playfair Display', serif;
+    
 }
 
 /* Tours offered */
@@ -347,12 +350,12 @@ h1, h2 {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
-    padding-top: 50px;
+    padding-top: 15px;
 }
 
 #photos > img {
     width: 100%;
-    height: 371px;
+    height: 365px;
     border: 1px solid white;
 }
 
@@ -362,7 +365,7 @@ h1, h2 {
 .form{
     width: 100%;
     overflow: hidden;
-    margin-top: 0px;
+    margin-top: 5px;
 }
 
 .form-image {
@@ -372,10 +375,10 @@ h1, h2 {
     align-items: flex-start;
     height: 100%;
     width: 100%;
-    background: url('../images/London_7.jpg') no-repeat center center;
+    background: url('../images/London_6.jpg') no-repeat center center;
     background-size: cover;
     margin: auto;
-    padding: 1px;
+    padding: 2px;
 }
 
 .form-text {
@@ -390,7 +393,7 @@ h1, h2 {
     border-radius: 15px;
     border: solid 1px #ccc;
     background-color: rgba(184, 225, 235, 0.7);
-    margin-top: 1em;
+    margin-top: 1.5em;
     
 
 }
@@ -407,7 +410,7 @@ h1, h2 {
     border-radius: 15px;
     border: solid 1px #ccc;
     background-color: rgba(184, 225, 235, 0.7);
-    margin-top: 1em;
+    margin-top: 1.5em;
     
 
 }
@@ -543,6 +546,10 @@ footer {
         height: 60vh;
     }
 
+    .banner-h1-text {
+        text-align: left;
+    }
+
     .banner-text-div{
         margin-top: 1.5em;
         margin-left: 5px;
@@ -562,9 +569,9 @@ footer {
     }
 
     .boxed-heading {
-        width: 98%;
+        width: 95%;
         height: inherit;
-        margin-top: 20px;
+        margin-top: 5px;
         font-size: 20px;
         text-align: center;
     }
@@ -584,12 +591,19 @@ footer {
         height: auto;
     }
 
+    .no-points{
+        height: 460px;
+    }
+
 
     /* Gallery */ 
 
     #photos {
         column-count: 2;
-        
+    }
+
+    #photos > img {
+        height: 265px;
     }
 
     /* Form */
@@ -607,6 +621,12 @@ footer {
 
     #photos {
         column-count: 3;
+        height: auto;
+    }
+
+    #about-us {
+        height: 300px;
+ 
     }
    
 }
@@ -650,16 +670,18 @@ footer {
      } 
 
     .banner-image{
-        height: 60vh
+        height: 260px;
+        
     }
 
     .banner-overlay-div {
-        height: 60vh;
+        height: auto;
     }
 
     .banner-text-div{
         margin-top: 1.5em;
         margin-left: 5px;
+        height: auto;
     }
 
     .banner-body-text {
@@ -675,9 +697,9 @@ footer {
     }
 
     .boxed-heading {
-        width: 95%;
+        width: 90%;
         height: inherit;
-        margin-top: 5px;
+        margin-top: 15px;
         font-size: 20px;
         text-align: center;
     }
@@ -745,10 +767,10 @@ footer {
 
     /* Hero image */ 
      .top-banner-section {
-        grid-template-rows: 460px;
+        grid-template-rows: 400px;
      }
     .banner-image{
-        height: 60vh
+        height: 400px;
     }
 
     .banner-overlay-div {
@@ -775,7 +797,7 @@ footer {
     .boxed-heading {
         width: 90%;
         height: inherit;
-        margin-top: 2px;
+        margin-top: 5px;
         font-size: 20px;
         text-align: center;
     }
@@ -795,12 +817,19 @@ footer {
         height: auto;
     }
 
+    .no-points {
+        height: 500px;
+    }
+
     /* Gallery */
 
     #photos {
         column-count: 2;
     }
     
+    #photos > img {
+        height: 150px;
+    }
 
     /* Forms */ 
 
