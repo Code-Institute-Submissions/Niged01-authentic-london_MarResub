@@ -71,11 +71,49 @@ These tours are aimed at tourists who have been to London before and are looking
 * CSS
     * No Errors were returned when passing through the offical [(jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
+### Form Testing
+
+* Have tested both forms and they work as expected sending the data to the code institute formdump page.
+
+    ![Form1](assets/images/tourrequest.png)
+    ![form2](assets/images/contactrequest.png)
+
 ### Acessibility
 
 * When running the acessibility test through lighthouse  the test itself came back with a 97% which is great however the performance returned a 79% this is from images to I did resized the larger images however all the images are required for the site so I have kept them in.
 
     ![Acessibility](assets/images/acessibility.png)
+
+* I also checked to make sure that the site was responsive. I checked each page using developer tools on Google Chrome to check the break points and checked it against multiple devices.
+
+* I also checked the site on multiple browsers (Google Chrome, Firefox, and Safari) to ensure that my site works on accross different browsers and it was responsive on all three.
+ 
+* I tested the site on my phone to ensure that it was responsive on smaller screens.
+
+### The user evaluation
+
+As a user I expect:
+
+    * To be able to easily find out information on the tours offered.
+    On the landing page the user is taken directly to the header where they are able to scroll down to the tours
+
+    * To be able to book the tours offered and contact the company if required.
+    On each tour there is a button to request booking this takes the user to the request booking form for submission this is the same when the user can select the contact us page in the header and they are taken to the contact us form to submit their request.
+
+    * To be able to follow the company on socials.
+    At the bottom of each page the user will find links to all social media platforms the company uses in the footer display.
+
+As a user I want:
+
+    * To be able to read a blurb on what each tour offers. 
+    Each tour clearly lays out what the user can expect from the tour where it is and the cost without going into too much depth as the experiences each tour will be individual to their user group.
+
+    * To seamlessly navigate around the site.
+    The nav bar allowes the user easy access around the site hopping from page to page and on any page the user can click on trampled london and be taken back to the home page. There are also booking request buttons allowing easy access for the user to book their wanted tour.
+
+    * To have a bit of a glimps and idea at what tour the user wants to go on.
+    The gallery page has a specific snipit selection of images that the tours go on here the user can get an idea of what to expect.
+
 
 ----------
 ## Deployment
